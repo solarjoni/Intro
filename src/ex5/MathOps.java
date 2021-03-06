@@ -65,7 +65,7 @@ public class MathOps {
             try {
                 setB(Integer.parseInt(input.nextLine()));
                 if (getB() == 0) {
-                    System.out.println("Number must no be 0!");
+                    System.out.println("Number must not be 0!");
                     setB(0);
                 } else {
                     break;
@@ -78,7 +78,7 @@ public class MathOps {
         System.out.println("a = " + getA() + ", b = " + getB());
         System.out.println(getA() + " added to " + getB() + " equals " + (getA() + getB()) );
         System.out.println(getA() + " subtracted from " + getB() + " equals " + (getA() - getB()) );
-        System.out.println("Multiplication result is: ");
+        System.out.println(getA() + " multiplied by " + getB() + " is: " + getA() * getB() );
         if (getB() != 0) {
             System.out.println("Division of " + getA() + " by " + getB() + " equals " + getA() / getB());
         } else {

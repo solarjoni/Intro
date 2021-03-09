@@ -7,12 +7,12 @@ public class DateTest {
         Date dp;
         dp = new Date();
 
+        // Enter and process date
+        dp.dateLogic();
         // Print separate Date
         System.out.println("Month: " + dp.getMonth());
         System.out.println("Day: " + dp.getDay());
         System.out.println("Year: " + dp.getYear());
-
-        dp.dateLogic();
         // Print Complete Date
         dp.displayDate();
     }

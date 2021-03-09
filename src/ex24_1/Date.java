@@ -7,11 +7,18 @@ public class Date {
     private int month;
     private int year;
 
+    public Date() {
+        // Default Constructor code
+        setDay(1);
+        setMonth(1);
+        setYear(1900);
+    }
+
     public Date(int myMonth, int myDay, int myYear) {
-        // Constructor code
-        day = myDay;
-        month = myMonth;
-        year = myYear;
+        // Parameterized Constructor code
+        setDay(myDay);
+        setMonth(myMonth);
+        setYear(myYear);
     }
 
     public int getMonth() {

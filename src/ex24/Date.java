@@ -8,10 +8,10 @@ public class Date {
     private int year;
 
     public Date() {
-        // Constructor code
-        day = 1 ;
-        month = 1;
-        year = 1900;
+        // Default Constructor code
+        setDay(1);
+        setMonth(1);
+        setYear(1900);
     }
 
     public int getMonth() {
